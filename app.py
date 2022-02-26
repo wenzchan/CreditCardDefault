@@ -27,7 +27,7 @@ def index():
         s = "The predicted credit card default is " + str(pred)
         return(render_template("index.html", result = s))
     else:
-        return(render_template("index.html", result = "2"))
+        return(render_template("index.html", result = "Please enter values to generate prediction"))
 
 
 # In[ ]:
